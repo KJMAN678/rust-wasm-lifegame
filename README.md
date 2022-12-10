@@ -2,6 +2,8 @@
 
 - [こちら](https://rust-wasm-lifegame.web.app/)
 
+<img src="images/image1.png" width="200"> <img src="images/image2.png" width="200">
+
 ### 環境
 
 - Rust 1.65.0
