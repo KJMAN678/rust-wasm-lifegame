@@ -3,10 +3,12 @@
   <head>
     <meta charset="utf-8">
     <title>Hello wasm-pack!</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
   </head>
   <body>
-    <!-- ユニバースをレンダリングする箇所 -->
-    <pre id="rust-wasm-canvas"></pre>
+    <canvas id="rust-wasm-canvas"></canvas>
+    <button id="play-pause"></button>
+    <div id = "fps"></div>
     <script src="./bootstrap.js"></script>
     <style>
         body {
